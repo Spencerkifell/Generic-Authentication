@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: slategray;
 }
 
 #testForm{
@@ -18,8 +19,8 @@ body{
     font-weight: 400;
     background-color: white;
     padding: 20px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: 35px;
+    margin-right: 35px;
     border-radius: 50px;
     border: black solid 2px;
 }
@@ -81,8 +82,8 @@ label{
     font-weight: 400;
     background-color: white;
     padding: 20px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: 35px;
+    margin-right: 35px;
     border-radius: 50px;
     border: black solid 2px;
 }
@@ -197,8 +198,8 @@ label{
     font-weight: 400;
     background-color: white;
     padding: 20px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: 35px;
+    margin-right: 35px;
     border-radius: 50px;
     border: black solid 2px;
 }
