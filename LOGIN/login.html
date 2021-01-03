@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Login In Page</title>
+</head>
+<body>
+    <form id="loginForm" action="login.php" method="POST">
+        <h1>Authentication</h1>
+        <label>Identification Number:</label>
+        <input class="fieldEntry" name="accountId" type="text" required>
+        <label>Password:</label>
+        <input class="fieldEntry" name="password" type="password" required>
+        <button id="buttonLogin" type="submit">Log In</button>
+    </form>
+
+    <script src="./login.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#testForm{
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    width: 450px;
+    height: 600px;
+    padding: 50px;
+    background-color: darkgray;
+    border: black solid 2px;
+}
+
+#testForm h1{
+    text-align: center;
+    font-weight: 400;
+    background-color: white;
+    padding: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
+    border-radius: 50px;
+    border: black solid 2px;
+}
+
+#testForm label{
+    font-weight: 10;
+    font-size: 20px;
+}
+
+#testForm .fieldEntry{
+    font-weight: 10;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: black solid 2px;
+}
+
+label{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#button{
+    height: 65px;
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 35px;
+    border: 2px black solid;
+    font-size: 20px;
+    background-color: white;
+}
+
+#button:hover{
+    height: 65px;
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 35px;
+    border: 2px black solid;
+    background-color: lightgray;
+}
+
+#loginForm{
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    width: 450px;
+    height: 600px;
+    padding: 50px;
+    background-color: darkgray;
+    border: black solid 2px;
+}
+
+#loginForm h1{
+    text-align: center;
+    font-weight: 400;
+    background-color: white;
+    padding: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
+    border-radius: 50px;
+    border: black solid 2px;
+}
+
+#loginForm label{
+    font-weight: 10;
+    font-size: 20px;
+}
+
+#loginForm .fieldEntry{
+    font-weight: 10;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: black solid 2px;
+}
+
+#loginForm #buttonLogin{
+    height: 65px;
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 35px;
+    border: 2px black solid;
+    font-size: 20px;
+    background-color: white;
+}
+
+#loginForm #buttonLogin:hover{
+    height: 65px;
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 35px;
+    border: 2px black solid;
+    background-color: lightgray;
+}
+
+#content{
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    width: 450px;
+    height: 600px;
+    padding: 50px;
+    background-color: darkgray;
+    border: black solid 2px;
+}
+
+#content h1{
+    text-align: center;
+    font-weight: 400;
+    background-color: white;
+    padding: 20px;
+    margin-left: 85px;
+    margin-right: 85px;
+    border-radius: 50px;
+    border: black solid 2px;
+}
+
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#links a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 125px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px black solid;
+    font-size: 20px;
+}
+
+#links a:hover{
+    background-color: lightgray;
+}
+
