@@ -6,4 +6,6 @@ form.addEventListener("submit", async (e) => {
         method: 'POST',
         body: new FormData(form)
     });
+    alert("User Created Successfully");
+    form.reset();
 })

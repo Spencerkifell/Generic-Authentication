@@ -102,12 +102,17 @@ label{
     border: black solid 2px;
 }
 
+#loginForm #controlsLog{
+    display: flex;
+    flex-flow: row;
+}
+
 #loginForm #buttonLogin{
     height: 65px;
     width: 150px;
     border-radius: 10px;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 50px;
     border: 2px black solid;
     font-size: 20px;
     background-color: white;
@@ -118,9 +123,62 @@ label{
     width: 150px;
     border-radius: 10px;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 50px;
     border: 2px black solid;
     background-color: lightgray;
+}
+
+#loginForm #buttonLogout{
+    height: 65px;
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border: 2px black solid;
+    font-size: 20px;
+    background-color: white;
+}
+
+#loginForm #buttonLogout:hover{
+    height: 65px;
+    width: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    border: 2px black solid;
+    background-color: lightgray;
+}
+
+#loginForm #showInfo{
+    margin: auto;
+}
+
+#loginForm #showInfo #userInfo{
+    height: 65px;
+    width: 250px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px black solid;
+    font-size: 20px;
+    background-color: white;
+}
+
+#loginForm #showInfo #userInfo:hover{
+    height: 65px;
+    width: 250px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px black solid;
+    background-color: lightgray;
+}
+
+#loginForm #currentUser{
+    text-align: center;
+    font-weight: 100;
 }
 
 #content{

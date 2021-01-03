@@ -13,7 +13,14 @@
         <input class="fieldEntry" name="accountId" type="text" required>
         <label>Password:</label>
         <input class="fieldEntry" name="password" type="password" required>
-        <button id="buttonLogin" type="submit">Log In</button>
+        <div id="controlsLog">
+            <button id="buttonLogin" type="submit">Log In</button>
+            <button id="buttonLogout" disabled="true">Log Out</button>
+        </div>
+        <h2 id="currentUser">Current User: User Not Logged In</h2>
+        <div id="showInfo">
+            <button id="userInfo" disabled="true">Show User Information</button>
+        </div>
     </form>
 
     <script src="./login.js"></script>
